@@ -1,3 +1,17 @@
-.app-container {
-    background-color: aquamarine;
+@font-face {
+    font-family: 'Raleway-Bold';
+    src: local('Raleway'), url(./resources/Fonts/Raleway/static/Raleway-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: local('Raleway'), url(./resources/Fonts/Raleway/static/Raleway-Regular.ttf) format('truetype');
+}
+
+body {
+    margin: 0;
+
+    .app-container {
+        background-color: aquamarine;
+    }
 }

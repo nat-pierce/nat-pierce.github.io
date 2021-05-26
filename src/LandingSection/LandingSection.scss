@@ -1,0 +1,27 @@
+.landing-section {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    
+    .text-section {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+        color: white;
+        text-align: center;
+
+        .name {
+            font-family: 'Raleway-Bold', sans-serif;
+            font-size: 60px;
+            margin: 0;
+        }
+
+        .job-title {
+            font-family: 'Raleway', sans-serif;
+            font-size: 30px;
+            margin: 0;
+        }
+    }
+}
