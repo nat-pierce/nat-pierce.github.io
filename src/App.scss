@@ -1,3 +1,5 @@
+@import './ConstantsAndMixins.scss';
+
 @font-face {
     font-family: 'Raleway-Bold';
     src: local('Raleway'), url(./Resources/Fonts/Raleway/static/Raleway-Bold.ttf) format('truetype');
@@ -21,11 +23,18 @@
 
 body {
     margin: 0;
-    font-family: 'Montserrat', sans-serif;
-    box-sizing: border-box;
+
+    div {
+        font-family: 'Montserrat', sans-serif;
+        box-sizing: border-box;
+    }
 
     .app-container {
         background-color: aquamarine;
         position: relative;
+
+        > *:not(.nav-bar):not(.landing-section) {
+            padding-top: $nav-bar-height;
+        }
     }
 }

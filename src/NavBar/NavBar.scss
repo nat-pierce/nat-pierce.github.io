@@ -1,5 +1,8 @@
+@import '../ConstantsAndMixins.scss';
+
 .nav-bar {
     padding: 1rem;
+    height: $nav-bar-height;
     position: fixed;
     top: 0;
     right: 0;
