@@ -11,10 +11,14 @@
         border: solid 1px black;
         border-radius: 50%;
         object-fit: cover;
-        margin-right: 10rem;
+        margin-right: 5rem;
     }
 
     .text-section {
         width: 300px;
+
+        > div {
+            margin-top: 1rem;
+        }
     }
 }
