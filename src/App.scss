@@ -27,12 +27,5 @@ body {
     .app-container {
         background-color: aquamarine;
         position: relative;
-
-        .nav-bar {
-            position: fixed;
-            top: 0;
-            right: 0;
-            z-index: 2;
-        }
     }
 }

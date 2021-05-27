@@ -6,6 +6,8 @@ export default function LandingSection() {
     return (
         <div className='landing-section' id='landing-section'>
             <Particles
+                width='100vw'
+                height='100vh'
                 options={particlesOptions}
             />
             <div className='text-section'>

@@ -1,5 +1,17 @@
 .nav-bar {
     padding: 1rem;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    width: 100%;
+    text-align: right;
+    background-color: transparent;
+    transition: background-color 0.4s ease-in-out;
+
+    &.background {
+        background-color: black;
+    }
 
     a {
         color: white;
@@ -14,6 +26,7 @@
         &.active {
             color: black;
             background-color: white;
+            font-weight: bold;
         }
     }
 }

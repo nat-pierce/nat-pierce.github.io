@@ -8,8 +8,8 @@ export const particlesOptions = {
         size: "cover"
     },
     fullScreen: {
-      enable: true,
-      zIndex: 1
+      enable: false,
+      zIndex: 0
     },
     interactivity: {
       events: {
