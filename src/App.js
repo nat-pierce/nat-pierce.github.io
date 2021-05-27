@@ -1,6 +1,8 @@
 import { useEffect, useRef } from 'react';
 import './App.scss';
 import LandingSection from './LandingSection';
+import NavBar from './NavBar';
+import ProfileSection from './ProfileSection';
 
 function App() {
     const containerRef = useRef(null);
@@ -23,7 +25,9 @@ function App() {
 
     return (
         <div className="app-container" ref={containerRef}>
+            <NavBar />
             <LandingSection />
+            <ProfileSection />
         </div>
     );
 }

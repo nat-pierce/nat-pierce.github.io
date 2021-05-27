@@ -4,7 +4,7 @@ import './LandingSection.scss';
 
 export default function LandingSection() {
     return (
-        <div className='landing-section'>
+        <div className='landing-section' id='landing-section'>
             <Particles
                 options={particlesOptions}
             />
