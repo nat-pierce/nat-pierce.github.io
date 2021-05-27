@@ -12,6 +12,8 @@
     background-color: transparent;
     transition: background-color 0.4s ease-in-out;
 
+    @include fadeIn;
+
     &.background {
         background-color: black;
     }
