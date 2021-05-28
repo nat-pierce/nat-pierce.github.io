@@ -10,9 +10,9 @@ export default function ProjectsSection() {
                     <iframe 
                         src="https://www.youtube.com/embed/ZwS21DYQLCE" 
                         title="YouTube video player" 
-                        frameborder="0" 
+                        frameBorder="0" 
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                        allowfullscreen>
+                        allowFullScreen>
                     </iframe>
                 </div>
                 <div className='right'>

@@ -36,13 +36,12 @@ body {
     margin: 0;
     background-color: black;
 
-    div {
+    div, input, textarea {
         font-family: 'Montserrat', sans-serif;
         box-sizing: border-box;
     }
 
     .app-container {
-        background-color: aquamarine;
         position: relative;
 
         > *:not(.nav-bar):not(.landing-section) {
