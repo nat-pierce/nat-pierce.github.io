@@ -8,7 +8,6 @@ export default function ProjectsSection() {
             <div className='project korio'>
                 <div className='left'>
                     <iframe 
-                        height="100%" 
                         src="https://www.youtube.com/embed/ZwS21DYQLCE" 
                         title="YouTube video player" 
                         frameborder="0" 
