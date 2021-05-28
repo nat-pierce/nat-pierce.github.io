@@ -3,6 +3,7 @@ import './App.scss';
 import LandingSection from './LandingSection';
 import NavBar from './NavBar';
 import ProfileSection from './ProfileSection';
+import ProjectsSection from './ProjectsSection';
 
 function App() {
     const containerRef = useRef(null);
@@ -28,6 +29,7 @@ function App() {
             <NavBar />
             <LandingSection />
             <ProfileSection />
+            <ProjectsSection />
         </div>
     );
 }

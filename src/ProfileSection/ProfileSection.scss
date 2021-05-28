@@ -6,6 +6,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 1rem;
 
     @include smallScreen {
         flex-direction: column;
@@ -19,11 +20,11 @@
         border: solid 1px black;
         border-radius: 50%;
         object-fit: cover;
-        margin-right: 5rem;
+        margin-left: 5rem;
 
         @include smallScreen {
-            margin-right: 0;
-            margin-bottom: 2rem;
+            margin-left: 0;
+            margin-top: 2rem;
         }
     }
 

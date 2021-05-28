@@ -1,0 +1,56 @@
+@import '../ConstantsAndMixins.scss';
+
+.projects-section {
+    background-color: white;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    .project {
+        height: 33%;
+        flex: 1;
+        padding: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        img {
+            max-height: 100%;
+        }
+
+        &.korio {
+            background-color: black;
+
+            .text-section {
+                a, .subtitle {
+                    color: white;
+                    font-family: 'Amazonas';
+                }
+            }
+        }
+
+        &.piqr {
+            background-color: white;
+
+            .text-section {
+                a, .subtitle {
+                    color: black;
+                    font-family: 'Timeburner';
+                }
+            }
+        }
+
+        &.whats-your-list {
+            background-color: #9B0404;
+        }
+
+        .text-section {
+            text-align: center;
+
+            a {
+                font-size: 30px;
+                font-weight: bold;
+            }
+        }
+    }
+}

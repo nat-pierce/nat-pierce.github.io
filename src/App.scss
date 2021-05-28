@@ -1,13 +1,8 @@
 @import './ConstantsAndMixins.scss';
 
 @font-face {
-    font-family: 'Raleway-Bold';
-    src: local('Raleway'), url(./Resources/Fonts/Raleway/static/Raleway-Bold.ttf) format('truetype');
-}
-
-@font-face {
-    font-family: 'Raleway';
-    src: local('Raleway'), url(./Resources/Fonts/Raleway/static/Raleway-Regular.ttf) format('truetype');
+    font-family: 'Amazonas';
+    src: local('Amazonas-Centered'), url(./Resources/Fonts/Amazonas/amazonas-webfont.woff) format('woff');
 }
 
 @font-face {
@@ -19,6 +14,17 @@
 @font-face {
     font-family: 'Montserrat';
     src: local('Montserrat'), url(./Resources/Fonts/Montserrat/Montserrat-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Timeburner';
+    src: local('Timeburner'), url(./Resources/Fonts/Timeburner/timeburnernormal.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Timeburner';
+    src: local('Timeburner'), url(./Resources/Fonts/Timeburner/timeburnerbold.ttf) format('truetype');
+    font-weight: bold;
 }
 
 body {
