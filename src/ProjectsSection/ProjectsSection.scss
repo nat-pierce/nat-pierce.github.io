@@ -21,36 +21,49 @@
         &.korio {
             background-color: black;
 
-            .text-section {
-                a, .subtitle {
-                    color: white;
-                    font-family: 'Amazonas';
-                }
+            a, .subtitle {
+                color: white;
+                font-family: 'Amazonas';
             }
         }
 
         &.piqr {
             background-color: white;
 
-            .text-section {
-                a, .subtitle {
-                    color: black;
-                    font-family: 'Timeburner';
-                }
+            a, .subtitle {
+                color: black;
+                font-family: 'Timeburner';
             }
         }
 
         &.whats-your-list {
-            background-color: #9B0404;
+            background: radial-gradient(#9B0404, black);
+
+            a, .subtitle {
+                color: white;
+                font-family: 'NunitoBlack';
+            }
         }
 
-        .text-section {
-            text-align: center;
+        a {
+            font-size: 30px;
+            font-weight: bold;
+            margin-bottom: 0.25rem;
+            padding: 0.5rem 1rem;
+            border-radius: 10px;
 
-            a {
-                font-size: 30px;
-                font-weight: bold;
+            &:hover {
+                background-color: gray;
             }
+        }
+
+        .left, .right {
+            height: 100%;
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
         }
     }
 }

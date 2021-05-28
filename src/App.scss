@@ -27,6 +27,11 @@
     font-weight: bold;
 }
 
+@font-face {
+    font-family: 'NunitoBlack';
+    src: local('Nunito'), url(./Resources/Fonts/Nunito/Nunito-Black.ttf) format('truetype');
+}
+
 body {
     margin: 0;
 
