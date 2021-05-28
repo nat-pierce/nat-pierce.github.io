@@ -32,6 +32,9 @@ export default function NavBar() {
             <Link activeClass="active" to="projects-section" spy={true} smooth={true} duration={1000}>
                 Projects
             </Link>
+            <Link activeClass="active" to="contact-section" spy={true} smooth={true} duration={1000}>
+                Contact
+            </Link>
         </div>
     )
 }

@@ -1,5 +1,6 @@
 import { useEffect, useRef } from 'react';
 import './App.scss';
+import ContactSection from './ContactSection';
 import LandingSection from './LandingSection';
 import NavBar from './NavBar';
 import ProfileSection from './ProfileSection';
@@ -30,6 +31,7 @@ function App() {
             <LandingSection />
             <ProfileSection />
             <ProjectsSection />
+            <ContactSection />
         </div>
     );
 }
