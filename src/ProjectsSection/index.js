@@ -44,10 +44,8 @@ export default function ProjectsSection() {
                 <div className='project keety'>
                     <div className='left'> </div>
                     <div className='right'>
-                        <div className='text-bg'>
-                            <a href="https://apps.apple.com/us/app/keety/id1131054781" target="_blank" rel="noreferrer">Keety</a>
-                            <div className='subtitle'>Arcade action shooter based on cat memes</div>
-                        </div>
+                        <a href="https://apps.apple.com/us/app/keety/id1131054781" target="_blank" rel="noreferrer">Keety</a>
+                        <div className='subtitle'>Arcade action shooter based on cat memes</div>
                     </div>
                 </div>
             </div>
