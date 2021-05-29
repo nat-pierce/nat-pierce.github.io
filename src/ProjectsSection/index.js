@@ -17,7 +17,7 @@ export default function ProjectsSection() {
                         </iframe>
                     </div>
                     <div className='right'>
-                        <a href="https://korio.studio" target="_blank" rel="noreferrer">Korio.studio</a>
+                        <a href="https://korio.studio" target="_blank" rel="noreferrer">KORIO.STUDIO</a>
                         <div className='subtitle'>The music player for dancers</div>
                     </div>
                 </div>
@@ -26,7 +26,7 @@ export default function ProjectsSection() {
                         <img src={piqrQr} alt='piqr.me' />
                     </div>
                     <div className='right'>
-                        <a href="https://piqr.me" target="_blank" rel="noreferrer">Piqr.me</a>
+                        <a href="https://piqr.me" target="_blank" rel="noreferrer">piqr.me</a>
                         <div className='subtitle'>Photo sharing made safe</div>
                     </div>
                 </div>
