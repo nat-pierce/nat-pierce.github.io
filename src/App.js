@@ -29,7 +29,7 @@ function App() {
     }, []);
 
     return (
-        <div className="app-container" ref={containerRef}>
+        <div className="app-container" id='app-container' ref={containerRef}>
             {isMounted &&
                 <>
                     <NavBar />

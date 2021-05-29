@@ -37,30 +37,39 @@
     src: local('Bebas-Neue'), url(./Resources/Fonts/Bebas-Neue/BebasNeue-Regular.ttf) format('truetype');
 }
 
-body {
-    margin: 0;
-    background-color: black;
+html {
+    height: 100%;
+    overflow: hidden;
+    position: relative;
 
-    div, input, textarea {
-        font-family: 'Montserrat', sans-serif;
-        box-sizing: border-box;
-    }
-
-    .overlay {
+    body {
+        margin: 0;
+        background-color: black;
         height: 100%;
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .app-container {
         position: relative;
-        height: 100%;
-        width: 100%;
 
-        > *:not(.nav-bar):not(.landing-section) {
-            padding-top: $nav-bar-height;
+        div, input, textarea {
+            font-family: 'Montserrat', sans-serif;
+            box-sizing: border-box;
+        }
+
+        .overlay {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .app-container {
+            position: relative;
+            height: 100%;
+            width: 100%;
+            overflow: auto;
+
+            > *:not(.nav-bar):not(.landing-section) {
+                padding-top: $nav-bar-height;
+            }
         }
     }
 }
