@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.61ddb459.chunk.css",
-    "main.js": "/static/js/main.81c2ffab.chunk.js",
-    "main.js.map": "/static/js/main.81c2ffab.chunk.js.map",
+    "main.css": "/static/css/main.706bfcf5.chunk.css",
+    "main.js": "/static/js/main.cd13048b.chunk.js",
+    "main.js.map": "/static/js/main.cd13048b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.52f067c0.js",
     "runtime-main.js.map": "/static/js/runtime-main.52f067c0.js.map",
     "static/js/2.136074fd.chunk.js": "/static/js/2.136074fd.chunk.js",
     "static/js/2.136074fd.chunk.js.map": "/static/js/2.136074fd.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.61ddb459.chunk.css.map": "/static/css/main.61ddb459.chunk.css.map",
+    "static/css/main.706bfcf5.chunk.css.map": "/static/css/main.706bfcf5.chunk.css.map",
     "static/js/2.136074fd.chunk.js.LICENSE.txt": "/static/js/2.136074fd.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/static/media/timeburnernormal.63ba8707.ttf",
     "static/media/check-circle.a772f5e4.svg": "/static/media/check-circle.a772f5e4.svg",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.52f067c0.js",
     "static/js/2.136074fd.chunk.js",
-    "static/css/main.61ddb459.chunk.css",
-    "static/js/main.81c2ffab.chunk.js"
+    "static/css/main.706bfcf5.chunk.css",
+    "static/js/main.cd13048b.chunk.js"
   ]
 }
