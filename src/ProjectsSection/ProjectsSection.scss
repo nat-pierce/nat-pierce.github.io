@@ -6,120 +6,143 @@
     display: flex;
     flex-direction: column;
 
-    @include smallScreen {
-        height: 300%;
-    }
-
-    .project {
-        height: 33.333%;
-        flex: 1;
-        padding: 1rem;
+    .top-row, .bottom-row {
         display: flex;
-        align-items: center;
-        justify-content: space-around;
+        height: 50%;
+        width: 100%;
 
-        &.korio {
-            background: url('../Resources/Images/korio-brick.jpg');
-            background-size: cover;
-
-            iframe {
-                border: solid 2px white;
-                border-radius: 10px;
-                height: 100%;
-
-                @include smallScreen {
-                    width: 100%;
-                }
-            }
-
-            a, .subtitle {
-                color: white;
-                font-family: 'Amazonas';
-            }
-        }
-
-        &.piqr {
-            background-color: white;
-
-            img {
-                border-radius: 20px;
-                padding: 5px;
-                border: solid 2px lightgray;
-                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-
-                @include smallScreen {
-                    max-height: 300px;
-                    max-width: 300px;
-                }
-            }
-
-            a, .subtitle {
-                color: black;
-                font-family: 'Timeburner';
-            }
-        }
-
-        &.whats-your-list {
-            background: radial-gradient(#9B0404, black);
-
-            a, .subtitle {
-                color: white;
-                font-family: 'NunitoBlack';
-            }
-
-            @include smallScreen {
-                svg {
-                    width: 300px;
-                    height: 100px;
-                }
-            }
-        }
-
-        a {
-            font-size: 32px;
-            font-weight: bold;
-            margin-bottom: 0.25rem;
-            padding: 0.5rem 1rem;
-            border-radius: 10px;
-
-            &:hover {
-                background-color: gray;
-            }
-        }
-
-        .subtitle {
-            font-size: 20px;
-        }
-
-        img {
-            max-height: 100%;
-        }
-
-        .left, .right {
+        .project {
             height: 100%;
             width: 50%;
             flex: 1;
+            padding: 1rem;
             display: flex;
             align-items: center;
-            justify-content: center;
-            flex-direction: column;
-            text-align: center;
-            padding: 1rem;
-        }
+            justify-content: space-around;
 
-        @include smallScreen {
-            flex-direction: column;
+            &.korio {
+                background: url('../Resources/Images/korio-brick.jpg');
+                background-size: cover;
+
+                iframe {
+                    border: solid 2px white;
+                    border-radius: 10px;
+                    height: 100%;
+
+                    @include smallScreen {
+                        width: 100%;
+                    }
+                }
+
+                a, .subtitle {
+                    color: white;
+                    font-family: 'Amazonas';
+                }
+            }
+
+            &.piqr {
+                background-color: white;
+
+                img {
+                    border-radius: 20px;
+                    padding: 5px;
+                    border: solid 2px lightgray;
+                    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+                    max-height: 100%;
+                    max-width: 100%;
+
+                    @include smallScreen {
+                        max-height: 300px;
+                        max-width: 300px;
+                    }
+                }
+
+                a, .subtitle {
+                    color: black;
+                    font-family: 'Timeburner';
+                }
+            }
+
+            &.whats-your-list {
+                background: radial-gradient(#9B0404, black);
+
+                a, .subtitle {
+                    color: white;
+                    font-family: 'NunitoBlack';
+                }
+
+                @include smallScreen {
+                    svg {
+                        width: 300px;
+                        height: 100px;
+                    }
+                }
+            }
+
+            &.keety {
+                background: url('../Resources/Images/keety.png');
+                background-size: cover;
+
+                .text-bg {
+                    background-color: white;
+                    padding: 1rem;
+                    border-radius: 10px;
+                    display: flex;
+                    flex-direction: column;
+
+                    a, .subtitle {
+                        color: black;
+                        font-family: 'Montserrat';
+                    }
+                }
+            }
+
+            a {
+                font-size: 32px;
+                font-weight: bold;
+                margin-bottom: 0.25rem;
+                padding: 0.5rem 1rem;
+                border-radius: 10px;
+
+                &:hover {
+                    background-color: gray;
+                }
+            }
+
+            .subtitle {
+                font-size: 20px;
+            }
+
+            img {
+                max-height: 100%;
+            }
 
             .left, .right {
-                width: 100%;
+                height: 100%;
+                width: 50%;
+                flex: 1;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                text-align: center;
+                padding: 1rem;
             }
 
-            .left {
-                justify-content: flex-end;
-            }
+            @include smallScreen {
+                flex-direction: column;
 
-            .right {
-                justify-content: flex-start;
+                .left, .right {
+                    width: 100%;
+                }
+
+                .left {
+                    justify-content: flex-end;
+                }
+
+                .right {
+                    justify-content: flex-start;
+                }
             }
         }
     }

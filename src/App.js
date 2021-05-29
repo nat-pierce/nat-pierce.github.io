@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import './App.scss';
 import ContactSection from './ContactSection';
 import LandingSection from './LandingSection';
@@ -8,11 +8,14 @@ import ProjectsSection from './ProjectsSection';
 
 function App() {
     const containerRef = useRef(null);
+    const [isMounted, setIsMounted] = useState(false);
 
     const updateWindowDimensions = () => {
         const height = window.innerHeight;
 
         containerRef.current.style.height = `${height}px`;
+
+        setIsMounted(true);
     }
 
     useEffect(() => {
@@ -27,11 +30,15 @@ function App() {
 
     return (
         <div className="app-container" ref={containerRef}>
-            <NavBar />
-            <LandingSection />
-            <ProfileSection />
-            <ProjectsSection />
-            <ContactSection />
+            {isMounted &&
+                <>
+                    <NavBar />
+                    <LandingSection />
+                    <ProfileSection />
+                    <ProjectsSection />
+                    <ContactSection />
+                </>
+            }
         </div>
     );
 }
