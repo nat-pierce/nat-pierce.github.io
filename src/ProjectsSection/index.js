@@ -17,7 +17,7 @@ export default function ProjectsSection() {
                         </iframe>
                     </div>
                     <div className='right'>
-                        <a href="https://korio.studio" target="_blank" rel="noreferrer">KORIO.STUDIO</a>
+                        <a href="https://korio.studio" target="_blank" rel="noreferrer">Korio.Studio</a>
                         <div className='subtitle'>The music player for dancers</div>
                     </div>
                 </div>

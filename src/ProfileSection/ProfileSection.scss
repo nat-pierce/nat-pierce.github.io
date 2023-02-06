@@ -30,6 +30,13 @@
 
     .text-section {
         width: $small-screen-min;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        h1 {
+            margin: 0;
+        }
 
         > div {
             margin-top: 1rem;

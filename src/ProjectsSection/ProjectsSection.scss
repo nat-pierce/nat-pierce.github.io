@@ -73,8 +73,11 @@
                 }
 
                 a, .subtitle {
-                    color: black;
                     font-family: 'Timeburner';
+                }
+
+                .subtitle {
+                    color: black;
                 }
             }
 
@@ -109,10 +112,6 @@
                     align-items: center;
                     justify-content: center;
 
-                    a {
-                        color: blue;
-                    }
-
                     .subtitle {
                         color: black;
                     }
@@ -120,11 +119,15 @@
             }
 
             a {
-                font-size: 32px;
+                font-size: 30px;
                 font-weight: bold;
                 margin-bottom: 0.25rem;
                 padding: 0.5rem 1rem;
-                border-radius: 10px;
+                border-radius: 40px;
+                background-color: black;
+                color: white;
+                border: solid 2px white;
+                text-decoration: none;
 
                 &:hover {
                     background-color: gray;
