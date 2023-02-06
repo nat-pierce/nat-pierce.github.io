@@ -11,7 +11,7 @@ export default function LandingSection() {
             />
             <div className='text-section'>
                 <h1 className='name'>Natalie Pierce</h1>
-                <h3 className='job-title'>Senior Front-end Software Engineer</h3>
+                <h3 className='job-title'>Creative Coder | Software Engineering Manager</h3>
             </div>
         </div>
     )
