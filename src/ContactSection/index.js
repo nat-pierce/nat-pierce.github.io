@@ -5,6 +5,9 @@ import ErrorIcon from '../Resources/Icons/error-icon.svg';
 import CheckIcon from '../Resources/Icons/check-circle.svg';
 import LoadingSpinner from './LoadingSpinner';
 
+const EMAIL_TEMPLATE_ID = "template_ozf6jnf";
+const EMAIL_USER_ID = "KaNB1C4vbBiDyef2s";
+
 export default function ContactSection() {
     const [emailStatus, setEmailStatus] = useState(null);
 
@@ -13,7 +16,7 @@ export default function ContactSection() {
 
         setEmailStatus('SENDING');
     
-        emailjs.sendForm('default_service', process.env.REACT_APP_EMAIL_TEMPLATE_ID, e.target, process.env.REACT_APP_EMAIL_USER_ID)
+        emailjs.sendForm('default_service', EMAIL_TEMPLATE_ID, e.target, EMAIL_USER_ID)
             .then((result) => {
                 setEmailStatus('SENT');
             }, (error) => {
