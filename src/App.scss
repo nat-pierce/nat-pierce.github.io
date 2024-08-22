@@ -37,6 +37,11 @@
     src: local('Bebas-Neue'), url(./Resources/Fonts/Bebas-Neue/BebasNeue-Regular.ttf) format('truetype');
 }
 
+@font-face {
+    font-family: 'ADLaMDisplay';
+    src: local('ADLaM_Display'), url(./Resources/Fonts/ADLaM_Display/ADLaMDisplay-Regular.ttf) format('truetype');
+}
+
 html {
     height: 100%;
     overflow: hidden;
