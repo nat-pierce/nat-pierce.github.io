@@ -33,7 +33,10 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin-top: $nav-bar-height;
+
+        @include smallScreen {
+            margin-top: $nav-bar-height;
+        }
 
         h1 {
             margin: 0;
