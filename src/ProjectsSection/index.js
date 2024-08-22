@@ -9,7 +9,7 @@ export default function ProjectsSection() {
         <div className='projects-section' id='projects-section'>
             <div className='project bluma'>
                 <div className='top'>
-                    <img src={BlumaLogo} />
+                    <img src={BlumaLogo} alt='Bluma Logo' />
                 </div>
                 <div className='bottom'>
                     <a href="https://store.steampowered.com/app/3032520/BLUMA/" target="_blank" rel="noreferrer">BLUMA</a>
@@ -18,7 +18,7 @@ export default function ProjectsSection() {
             </div>
             <div className='project keety'>
                 <div className='top'>
-                    <img src={KeetyImg} />
+                    <img src={KeetyImg} alt='Keety Logo' />
                 </div>
                 <div className='bottom'>
                     <a href="https://apps.apple.com/us/app/keety/id1131054781" target="_blank" rel="noreferrer">Keety</a>
